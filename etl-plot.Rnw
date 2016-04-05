@@ -1,0 +1,27 @@
+\documentclass{article}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+
+
+
+\begin{figure}[!h]
+\begin{center}
+<<fig = T, width = 7, height = 7, echo = F>>=
+bwplot( qtime ~ branch  | loopid , horizontal = FALSE, data = e2)
+@
+\end{center}
+\caption{What you see in this figure...}
+\end{figure}
+
+\begin{figure}[!h]
+\begin{center}
+<<fig = T, width = 7, height = 7, echo = F>>=
+bwplot( qfromhelptime ~ branch  | loopid , horizontal = FALSE, data = e3)
+@
+\end{center}
+\caption{What you see in this figure...}
+\end{figure}
+
+\end{document}
