@@ -1,7 +1,7 @@
 library("lattice")
 library("dplyr")
 
-setwd("~/Google Drive/UTS - C&C/20160324 - hotspot - 3x3")
+# setwd("~/Google Drive/UTS - C&C/20160324 - hotspot - 3x3")
 
 json2time <- function(d) {
   val <- strptime(d, "%Y-%m-%d %H:%M:%OS") %>% as.numeric()
