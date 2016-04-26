@@ -1,7 +1,7 @@
 library("lattice")
 library("dplyr")
 
-fname = "entries_20160406.csv"
+fname = "entries_20160426.csv"
 
 # setwd("~/Google Drive/UTS - C&C/20160324 - hotspot - 3x3")
 
